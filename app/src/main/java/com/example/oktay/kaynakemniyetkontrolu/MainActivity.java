@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         onclick();
     }
 
-    private void onclick() {
+    public void onclick() {
         btnHesapla=(Button)findViewById(R.id.button);
         btnHesapla.setOnClickListener(
                 new View.OnClickListener() {

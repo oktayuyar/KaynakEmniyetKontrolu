@@ -8,7 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="16dp"
     tools:context="com.example.oktay.kaynakemniyetkontrolu.MainActivity"
-    android:textAlignment="center">
+    android:textAlignment="center"
+    android:id="@+id/xx">
 
     <Button
         android:layout_width="wrap_content"
@@ -26,6 +27,7 @@
         android:numeric="integer|decimal"
         android:textAlignment="center"
         android:layout_alignParentTop="true"
+        android:imeOptions="actionNext"
         android:layout_alignParentEnd="true" />
 
     <TextView
@@ -67,6 +69,8 @@
         android:numeric="integer|decimal"
         android:textAlignment="center"
         android:layout_alignBottom="@+id/textView8"
+        android:nextFocusDown="@+id/edten"
+        android:imeOptions="actionNext"
         android:layout_alignEnd="@+id/edtkuvvet" />
 
     <EditText
@@ -76,6 +80,7 @@
         android:numeric="integer|decimal"
         android:textAlignment="center"
         android:layout_alignBottom="@+id/textView4"
+        android:imeOptions="actionNext"
         android:layout_alignParentEnd="true" />
 
     <TextView
@@ -96,6 +101,7 @@
         android:numeric="integer|decimal"
         android:textAlignment="center"
         android:layout_alignBottom="@+id/textView9"
+        android:imeOptions="actionNext"
         android:layout_alignParentEnd="true" />
 
     <EditText
@@ -104,9 +110,10 @@
         android:id="@+id/edtaci"
         android:numeric="integer|decimal"
         android:textAlignment="center"
+        android:imeOptions="actionNext"
+        android:layout_marginTop="37dp"
         android:layout_below="@+id/edtboy"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="39dp" />
+        android:layout_toEndOf="@+id/button" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -135,6 +142,7 @@
         android:layout_below="@+id/edtaci"
         android:layout_alignParentEnd="true"
         android:numeric="integer|decimal"
+        android:imeOptions="actionNext"
         android:textAlignment="center" />
 
     <TextView

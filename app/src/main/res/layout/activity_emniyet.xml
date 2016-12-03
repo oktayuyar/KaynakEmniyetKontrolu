@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.oktay.kaynakemniyetkontrolu.EmniyetActivity"
+    android:background="#ffff">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/emniyet"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ffff" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="σe="
+        android:id="@+id/textView13"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="131dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ζk="
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_alignEnd="@+id/textView13"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="σç="
+        android:id="@+id/textView15"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/textView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="σem="
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView14"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtegilme"
+        android:layout_above="@+id/textView13"
+        android:layout_toEndOf="@+id/textView15"
+        android:textAlignment="center"
+        android:maxLength="9"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtcekme"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_toEndOf="@+id/textView13"
+        android:textAlignment="center"
+        android:maxLength="9"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtkayma"
+        android:layout_alignTop="@+id/textView14"
+        android:layout_toEndOf="@+id/textView13"
+        android:textAlignment="center"
+        android:maxLength="9"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtsinir"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:textAlignment="center"
+        android:maxLength="9"
+        android:enabled="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:id="@+id/txtSonuc"
+        android:layout_below="@+id/textView16"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center" />
+
+</RelativeLayout>

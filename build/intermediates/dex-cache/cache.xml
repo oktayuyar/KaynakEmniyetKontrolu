@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/oktay/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_a761f4462c6e93a6206342b93f173e19365d5289.jar" />
+    </item>
+    <item
+        jar="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_4d582085b542146e70a43f851422db1757518185.jar" />
+    </item>
+    <item
+        jar="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_780d3cea97ad45b191731bb9ab23c19aa6beda94.jar" />
+    </item>
+    <item
+        jar="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_28e3450d28b9f6af7cf4cb0536c5ff52342d36ba.jar" />
+    </item>
+    <item
+        jar="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_c31630a2e37320bc27fe7e5d07ff459574295e19.jar" />
+    </item>
+    <item
+        jar="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/oktay/AndroidStudioProjects/KaynakEmniyetKontrolu/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_cdd0373a9221d80aa4007b2a39edaf3655c7b7e3.jar" />
+    </item>
+
+</items>

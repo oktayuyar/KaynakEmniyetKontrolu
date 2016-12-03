@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
-        android:label="@string/app_name"
+        android:label="KaynakKontrolü"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
@@ -18,10 +18,38 @@
         <activity android:name=".SecondActivity">
             <intent-filter>
                 <action android:name="com.example.oktay.kaynakemniyetkontrolu.SecondActivity" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".CekmeActivity">
+            <intent-filter>
+                <action android:name="com.example.oktay.kaynakemniyetkontrolu.CekmeActivity" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EgilmeActivity">
+            <intent-filter>
+                <action android:name="com.example.oktay.kaynakemniyetkontrolu.EgilmeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".KaymaActivity">
+            <intent-filter>
+                <action android:name="com.example.oktay.kaynakemniyetkontrolu.KaymaActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EmniyetActivity">
+            <intent-filter>
+                <action android:name="com.example.oktay.kaynakemniyetkontrolu.EmniyetActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
